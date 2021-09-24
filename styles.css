@@ -1,0 +1,177 @@
+
+body {
+    background-color: #ffffff;
+  
+}
+
+.wrapper {
+    border: 10px solid rgb(253, 253, 253);
+}
+
+.img-logo { 
+    width: 152px;
+    height: 92px;
+    margin-top: 9px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 253, 253,);
+    height: 40px;
+    width: 100%;
+
+}
+
+.openingdiv { 
+    display:flex ; 
+    flex-direction:row ;  
+
+}
+.header {
+    display:flex ; 
+    flex-direction:flex-start ;  
+    
+}
+.seconddiv {
+    display:flex ; 
+    flex-direction:column ;
+}
+.starline { 
+display:flex ; 
+flex-direction:row ;
+
+}
+
+.pargone { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 15px;
+    
+}
+.Chromebutton {
+    margin-top: 55px;
+    margin-left: 135px;
+    width: 185px;
+    height: 45px;
+    background-color: rgb(114, 197, 152);
+    border:#ffffff 20%;
+    border-top-left-radius: 6.5%;
+    border-top-right-radius: 6.5%;
+    border-bottom-left-radius: 6.5%;
+    border-bottom-right-radius: 6.5%;
+    padding-top: -2%;
+    padding-bottom: 0%;
+    padding-left: -3%;
+    padding-right: 0%;
+    font-family: 'Inter',sans-serif;
+    color:#ffffff
+
+}
+
+.stars { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 253, 253,);
+    width: 75px;
+    height: 35px;
+
+}
+
+.pargtwo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    color: silver;
+}
+
+.picone { 
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        background-color: rgb(253, 253, 253,);
+        width: 650px;
+        height: 605px;
+        padding-top: 100px;
+        margin-left:  180px; ;
+
+    }
+
+ .headsmall {
+    display: flex;
+    justify-content:flex-end ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12.5px;
+    color: silver;
+    
+}
+.pargthree {
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+
+}
+.pictwo {
+        display: flex;
+        flex-direction: row row-reverse;
+        justify-content: flex-start;
+        background-color: rgb(253, 253, 253, );
+        width: 595px;
+        height: 500px;
+    }
+
+ .pargfour {
+     display: flex;
+     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+ }
+ 
+ .insidecontent {
+     margin-left: 20px;
+ }
+
+ .insidecontent2 {
+     display: flex;
+     justify-content: flex-end;
+     margin-top: -400px ;
+
+
+ }
+
+ .paragraph {
+   display: flex; 
+   flex-direction:row-reverse ;
+ }
+
+ .two { 
+    display: flex; 
+    flex-direction: row-reverse ;
+ }
+
+ .h3 {
+    display: flex; 
+    justify-content: center ; 
+    margin-top: 200px ; 
+
+
+ }
+/* Align-items
+//flex-start: Items align to the top of the container.
+//flex-end: Items align to the bottom of the container.
+//center: Items align at the vertical center of the container.
+//baseline: Items display at the baseline of the container.
+//stretch: Items are stretched to fit the container.
+//Justify content
+//flex-start: Items align to the left side of the container.
+//flex-end: Items align to the right side of the container.
+//center: Items align at the center of the container.
+//space-between: Items display with equal spacing between them.
+//space-around: Items display with equal spacing around them.
+//flex-direction 
+//row: Items are placed the same as the text direction.
+row-reverse: Items are placed opposite to the text direction.
+column: Items are placed top to bottom.
+column-reverse: Items are placed bottom to top.
